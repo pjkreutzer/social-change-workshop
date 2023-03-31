@@ -1,0 +1,106 @@
+/*-- scss:defaults --*/
+$background-color: inherit;
+$text-color: inherit;
+$bronze: #875e29;
+$copper: #b4d7b8;
+
+$glitch-color-1: #875e29;
+$glitch-color-2:#b4d7b8;
+
+/*-- scss:rules --*/
+
+h1 {
+  color: $text-color;
+  background-color: $background-color;
+  font-size: 10em;
+  font-weight: 700;
+  text-align: justify;
+  margin: 50;
+  padding: 50;
+  position: relative;
+}
+
+.change{
+  color: $bronze;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  // scss: glitch 
+
+  .stack {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .stack span {
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 4rem;
+    --stack-height: calc(100% / var(--stacks) - 1px);
+    
+    &:nth-child(odd) {
+      --glitch-translate: 8px;
+    }
+    
+    &:nth-child(even) {
+      --glitch-translate: -8px;
+    }
+    
+    --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+    --clip-top: calc(var(--stack-height) * var(--index));
+    --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+    
+    clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+    animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+  }
+  
+  @keyframes stack {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+      text-shadow: -2px 3px 0 $glitch-color-1, 2px -3px 0 $glitch-color-2;
+    };
+    60% {
+      opacity: 0.5;
+      transform: translateX(50%);
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+      text-shadow: 2px -3px 0 $glitch-color-1, -2px 3px 0 $glitch-color-2;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: -2px 3px 0 $glitch-color-1, 2px -3px 0 $glitch-color-2;
+      transform: translate(var(--glitch-translate));
+    }
+    2% {
+      text-shadow: 2px -3px 0 $glitch-color-1, -2px 3px 0 $glitch-color-2;
+    }
+    4%, 100% {
+      text-shadow: none;
+      transform: none;
+    }
+  }
