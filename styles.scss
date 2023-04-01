@@ -1,4 +1,25 @@
 /*-- scss:defaults --*/
+
+@font-face {
+  font-family: 'migra_italicextralight_italic';
+  src: url('migraitalic-extralightitalic-webfont.woff2') format('woff2'),
+       url('migraitalic-extralightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+  font-family: 'pp_mondwestregular';
+  src: url('ppmondwest-regular-webfont.woff2') format('woff2'),
+       url('ppmondwest-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 $background-color: inherit;
 $text-color: inherit;
 $bronze: #875e29;
@@ -10,18 +31,47 @@ $glitch-color-2:#b4d7b8;
 /*-- scss:rules --*/
 
 h1 {
-  color: $text-color;
-  background-color: $background-color;
-  font-size: 10em;
-  font-weight: 700;
-  text-align: justify;
-  margin: 50;
-  padding: 50;
+  color: inherit;
+  background-color: inherit;
+  font-size: 12vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 0.8;
+  margin: auto;
+  padding-bottom: 0.5em;
   position: relative;
 }
 
+
+h1.title{
+  margin-bottom: 0em;
+  padding-bottom: 0.33em;
+}
+
+p {
+  font-family:  "Neue Haas Grotesk Display Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
 .change{
+  font-family: "pp_mondwestregular", "Neue Haas Grotesk Display Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: inherit;
+  // make font upper case
+}
+
+.bronze{
   color: $bronze;
+}
+
+.workshop{
+  font-family: "migra_italicextralight_italic", "Neue Haas Grotesk Display Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: inherit;
+}
+
+h2{
+  font-family: "pp_mondwestregular", "Neue Haas Grotesk Display Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 6vw;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
