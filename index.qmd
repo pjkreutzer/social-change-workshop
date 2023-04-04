@@ -50,4 +50,4 @@ Please use the from below or visit the event page [here](https://www.eventbrite.
 
 ## Contact
 
-If you have any questions, please contact [Philipp Jonas Kreutzer](pjkreutzer.github.io) by sending an email to [philipp_jonas.kreutzer@ekh.lu.se](mailto:philipp_jonas.kreutzer@ekh.lu.se).
+If you have any questions, please contact [Philipp Jonas Kreutzer](https://pjkreutzer.github.io/) by sending an email to [philipp_jonas.kreutzer@ekh.lu.se](mailto:philipp_jonas.kreutzer@ekh.lu.se).
