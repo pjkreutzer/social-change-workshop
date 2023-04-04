@@ -1,8 +1,5 @@
 
-# Social <br> [Change]{.change} <br> [Work---  <br>     Shop]{.workshop} {.title}
-
-# 06/05/23 
-
+![Social Change Workshop](social-change-banner.png)
 Are you passionate about social change and a more sustainable future? Do you want to connect with like-minded people and researchers in the Lund region? Join us for a one-day workshop on May 6th, 2023 at the Auditorium SOL!
 
 Our aim is to create a space for collaboration, exchange, and experimentation. We want to hear from you, the activists and changemakers, about your experiences and ideas for creating a more sustainable future. Creating change in society is difficult and challenging, and we do not have all the answers. But we believe that we can learn from each other and find useful ideas, tools and inspiration in each of our experiences and backgrounds.
@@ -13,7 +10,7 @@ We welcome up to 50 participants from social activist groups, universities, and 
 
 Below you can find more information about the workshop, including the agenda, speakers, and how to register.
 If this already sounds like something you just do not want to miss, you can directly jump to the [registration form](#sign-up).
-The **last day to sign up is the 18th of April**.
+The **last day to sign up is the 24th of April**.
 
 ## Agenda
 
@@ -32,6 +29,7 @@ The **last day to sign up is the 18th of April**.
 
 ## Location
 
+
 The workshop will take place at the Auditorium SOL, located at the University of Lund. The address is *Finngatan 1, 223 62 Lund*. 
 You can find more information about the premise [here](https://www.kom.lu.se/en/sol-buildings/premises/).
 
@@ -43,8 +41,11 @@ To minimize waste, please bring your own coffee mugs.
 
 ## Sign Up
 
+We kindly ask you to sign up so that we can minimize food waste.
+Please use the from below or visit the event page [here](https://www.eventbrite.co.uk/e/social-change-workshop-tickets-607118536887). 
+
 <div class="container">
-<iframe class="responsive-iframe" src="https://forms.office.com/e/DeKP7hSdGK?embed=true"> </iframe>
+<iframe class="responsive-iframe" src="https://www.eventbrite.co.uk/e/social-change-workshop-tickets-607118536887"> </iframe>
 </div>
 
 ## Contact
