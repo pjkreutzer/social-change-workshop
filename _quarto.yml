@@ -3,13 +3,16 @@ project:
 
 website:
   title: "Social Change Workshop"
-
+  page-footer: "Design by [Gregor Molls](https://molls.design/)."
+  
 format:
   html:
     theme: [pandoc, styles.scss]
     toc: false
     search: false
     navbar: false
+
+
 
 
 
