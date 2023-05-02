@@ -9,8 +9,6 @@ Throughout the day, we will have various sessions where researchers will share t
 We welcome up to 50 participants from social activist groups, universities, and the general public. Let's build bridges between researchers and activists, and be inspired by each other to create a more sustainable future!
 
 Below you can find more information about the workshop, including the agenda, speakers, and how to register.
-If this already sounds like something you just do not want to miss, you can directly jump to the [registration form](#sign-up).
-We have extended the deadline for signing up. **Get your spot now!**.
 
 ## Agenda
 
@@ -43,6 +41,12 @@ To minimize waste, please bring your own coffee mugs.
 
 We kindly ask you to sign up so that we can minimize food waste.
 Please use the from below or visit the event page [here](https://www.eventbrite.co.uk/e/social-change-workshop-tickets-607118536887). 
+
+:::{.callout-warning}
+The registration has now closed.
+But if this sounds like something you just do not want to miss, you are still welcome!
+Just make sure to bring your own lunch and fika, as we will not be planning with more people than signed-up.
+:::
 
 <div class="container">
 <iframe class="responsive-iframe" src="https://www.eventbrite.co.uk/e/social-change-workshop-tickets-607118536887"> </iframe>
